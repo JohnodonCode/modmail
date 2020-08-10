@@ -13,4 +13,5 @@ Self hosted premade ModMail bot for Discord servers. Enter some info in the conf
     "display_mod_name": false
 }
 ```
-E
+This is the default configuration file. We will go over each line and how to fill it in. 
+`"token": "BOT_TOKEN"`: You will need a developer bot token for this line. You can get it on the (Discord Developers Application Page)[https://discord.com/developers/applications]
