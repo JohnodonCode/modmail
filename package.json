@@ -1,0 +1,14 @@
+{
+  "name": "essentials-backup",
+  "version": "1.0.1",
+  "description": "backup scripts for essentials",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Johnodon.com",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.2.0"
+  }
+}
