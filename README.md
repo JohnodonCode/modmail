@@ -1,5 +1,5 @@
 # ModMail
-Self hosted premade ModMail bot for Discord servers. Enter some info in the config.json and start the bot!
+Self hosted premade ModMail bot for Discord servers written in Discord.js. Enter some info in the config.json and start the bot!
 
 # Config
 ```json
