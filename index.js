@@ -1,3 +1,5 @@
+// Thank you for using ModMail! Copyright (c) 2020 Johnodon.com. All Rights Reserved. Licensed under the MIT license located in the LICENSE file.
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const { token, server_id, channel_prefix, modmail_viewing_role_id, status, modmail_category_name, display_mod_name} = require('./config.json')
