@@ -30,3 +30,9 @@ This is the default configuration file. We will go over each line and how to fil
 `"modmail_category_name": "Modmail"`: The name of the category to put ModMail channels in.
 
 `"display_mod_name": false`: Whether or not to display the responding moderator's username in the mod messages. Leaving it at `false` will result in the username being `Anonymous#0000`.
+
+# Installation
+1. Download and install [NodeJS](https://nodejs.org/)
+2. Download and install [Git](https://git-scm.com/)
+3. Clone this repository by right clicking a new folder, clicking `Git bash here`, and pasting in `git clone https://github.com/JohnodonCode/modmail.git`.
+4. Open command prompt in the folder with the `index.js` file and run `node index.js`
