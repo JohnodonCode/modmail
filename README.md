@@ -11,5 +11,6 @@ Self hosted premade ModMail bot for Discord servers. Enter some info in the conf
     "status": "DM to Contact Staff",
     "modmail_category_name": "Modmail",
     "display_mod_name": false
-}```
+}
+```
 E
