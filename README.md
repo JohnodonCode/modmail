@@ -35,4 +35,5 @@ This is the default configuration file. We will go over each line and how to fil
 1. Download and install [NodeJS](https://nodejs.org/)
 2. Download and install [Git](https://git-scm.com/)
 3. Clone this repository by right clicking a new folder, clicking `Git bash here`, and pasting in `git clone https://github.com/JohnodonCode/modmail.git`.
-4. Open command prompt in the folder with the `index.js` file and run `node index.js`
+4. Edit the `config.json` file and change your settings.
+5. Open command prompt in the folder with the `index.js` file and run `node index.js`.
