@@ -13,7 +13,7 @@ const server = await client.guilds.cache.get(server_id);
     if(message.author.bot) return;
     if(message.channel.type == "dm") {
         if(!server.member(message.author.id)) return message.channel.send(`You must be in ${server.name} to use ModMail!`);
-        const channel_name = `${channel_prefix}_${message.author.username.toLowerCase()}_${message.author.id}`
+        const channel_name = `${channel_prefix}_${message.author.username.toLowerCase()}_${message.author.id}`.split(' ').join('-')
         let category = await server.channels.cache.find(c => c.name == modmail_category_name && c.type == 'category')
         if(!category) { category = await server.channels.create(modmail_category_name, {
             type: 'category',
