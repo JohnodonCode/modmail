@@ -9,17 +9,19 @@ const { token, server_id, channel_prefix, modmail_viewing_role_id, status, modma
 
 
 // Do not edit this line:
-const version = `1.0.3`
+const version = `1.0.4`
 
 console.log('Bot starting... Please wait.')
 
 client.once('ready',async () => {
     await client.user.setActivity(status, { type: 'PLAYING' })
     await console.log('Bot has started.')
-    let update = fetch(`https://www.johnodon.com/modmail/latest.json`).then(res => res.json())
-    if(!update) return;
-    if(update.version != version) return console.log('Your current modmail version is out of date! Please visit https://github.com/JohnodonCode/modmail and copy the code from the index file into your index file.')
-    else return console.log('Your current version of modmail is up to date.')
+    fetch(`https://www.johnodon.com/modmail/latest.json`).then(res => res.json()).then(update => {
+        if(!update) return;
+        if(update.version != version) return console.log('Your current modmail version is out of date! Please visit https://github.com/JohnodonCode/modmail and copy the code from the index file into your index file.')
+        else return console.log('Your current version of modmail is up to date.')
+    })
+    return;
 })
 
 client.on('message', async message => {
